@@ -164,9 +164,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AstreSpawner
   astrePrefab: {fileID: 6676270528404676943, guid: 462f6ed782f082940b8af82a1e662408, type: 3}
-  nombreAstres: 20
-  vitesseMin: 0.5
-  vitesseMax: 3
+  nombreAstres: 6
+  vitesseNormaleMin: 1.2
+  vitesseNormaleMax: 1.7
+  vitesseAnormaleMin: 2.5
+  vitesseAnormaleMax: 3
+  vitesseAnormaleLenteMin: 0.5
+  vitesseAnormaleLenteMax: 0.8
+  probabiliteAnomalieVitesse: 0.35
+  probabiliteAnomalieCouleur: 0.35
+  probabiliteAnomalieDirection: 0.35
+  margeHorsChamp: 1
+  margeVerticale: 0.5
+  variationVerticale: 0.3
+  espacementMinimum: 1
+  delaiMinEntreSpawns: 10
+  delaiMaxEntreSpawns: 20
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
